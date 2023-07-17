@@ -8,4 +8,14 @@
         "source.fixAll.eslint": true 
     },
     "editor.tabSize": 2,
+    "python.linting.pycodestyleEnabled": true,
+    "python.linting.pycodestyleArgs": [
+        "--max-line-length=89"
+    ],
+    "python.linting.pylintEnabled": true,
+    "python.formatting.provider": "none",
+    "[python]": {
+        "editor.formatOnSave": true,
+        "editor.defaultFormatter": "ms-python.black-formatter"
+    }
 }
